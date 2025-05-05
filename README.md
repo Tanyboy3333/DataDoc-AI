@@ -55,7 +55,7 @@ Here’s how the system works end-to-end:
 
 🖼 System Design
 
-![Screenshot](images/system.png)
+![Screenshot](https://github.com/Tanyboy3333/DataDoc-AI/blob/main/images/system.png?raw=true)
 
 
 📝 Full Workflow
