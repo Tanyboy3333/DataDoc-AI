@@ -53,9 +53,6 @@ Here’s how the system works end-to-end:
 7. Streaming response displayed in the chat interface
 
 
-🖼 System Design
-
-![Screenshot](https://github.com/Tanyboy3333/DataDoc-AI/blob/main/images/system.png?raw=true)
 
 
 📝 Full Workflow
