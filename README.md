@@ -55,6 +55,7 @@ Here’s how the system works end-to-end:
 
 
 
+
 📝 Full Workflow
 
 1) Upload a document: user uploads a .pdf, .docx, .txt, etc.
@@ -162,3 +163,4 @@ Click Create Web Service
 
 
 
+```

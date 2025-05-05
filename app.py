@@ -107,11 +107,11 @@ with gr.Blocks(
             with gr.Row():
                 btn = gr.Button("Submit", variant="primary")
                 clear = gr.Button("Clear")
-            output = gr.Textbox(label="Status")
+            output = gr.Textbox(label="Status", lines=5, interactive=False)
         with gr.Column(scale=3):
             chatbot = gr.ChatInterface(
                 fn=respond,
-                chatbot=gr.Chatbot(height=300),
+                chatbot=gr.Chatbot(height=500),
                 theme="soft",
                 show_progress="full",
                 textbox=gr.Textbox(
