@@ -12,7 +12,6 @@ The container **sleeps after several minutes of inactivity** — so when you vis
 
 Please be patient while the server wakes up!
 
-
 This project leverages powerful AI APIs and frameworks, including:
 
 ✅ **Gradio** – for building an interactive web interface  
@@ -59,32 +58,14 @@ This project leverages powerful AI APIs and frameworks, including:
 
 6) User queries: typed queries passed to query engine
 
-7) Answer generated: Groq LLM streams generated answer
+7) Answer generated: Groq LLM generates an answer from the indexed embeddings
+
 
 8) Displayed: streamed answer updates chatbot UI in real-time
 
 9) Clear/reset: user can clear uploaded file and start over
 
 ✅ Parsing supports PDFs, docs, text files, images, spreadsheets, presentations
-
-🖼️ System Overview
-
-
-Here’s how the system works end-to-end:
-
-1. User uploads a document → file saved temporarily
-
-2. Document parsed by LlamaParse depending on its file type
-
-3. Parsed text embedded using CohereEmbedding
-
-4. Embeddings stored in a VectorStoreIndex
-
-5. User asks a question → query passed to query engine
-
-6. Groq LLM generates an answer from the indexed embeddings
-
-7. Streaming response displayed in the chat interface
 
 
 🏗️ Installation & Setup
