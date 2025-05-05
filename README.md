@@ -60,7 +60,6 @@ This project leverages powerful AI APIs and frameworks, including:
 
 7) Answer generated: Groq LLM generates an answer from the indexed embeddings
 
-
 8) Displayed: streamed answer updates chatbot UI in real-time
 
 9) Clear/reset: user can clear uploaded file and start over
