@@ -1,0 +1,6 @@
+gradio
+python-dotenv
+llama-index-core
+llama-index-embeddings-cohere
+llama-index-llms-groq
+llama-parse
