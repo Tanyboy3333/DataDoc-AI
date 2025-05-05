@@ -1,6 +1,6 @@
 # 🦙 DataDoc AI – AI-Powered Document Q&A Chatbot
 
-Welcome to **DocuLlama AI**, an intelligent web application that allows you to upload a document and interact with it through a conversational chatbot powered by state-of-the-art Large Language Models (LLMs). Simply upload your document and start asking questions — the AI will respond with accurate, contextually relevant answers.
+Welcome to **DataDoc AI**, an intelligent web application that allows you to upload a document and interact with it through a conversational chatbot powered by state-of-the-art Large Language Models (LLMs). Simply upload your document and start asking questions — the AI will respond with accurate, contextually relevant answers.
 
 This project leverages powerful AI APIs and frameworks, including:
 
