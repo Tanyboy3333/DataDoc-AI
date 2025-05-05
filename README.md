@@ -2,6 +2,17 @@
 
 Welcome to **DataDoc AI**, an intelligent web application that allows you to upload a document and interact with it through a conversational chatbot powered by state-of-the-art Large Language Models (LLMs). Simply upload your document and start asking questions — the AI will respond with accurate, contextually relevant answers.
 
+## 🚀 Live Demo
+
+✅ [👉 Click here to try the app!](https://datadoc-ai.onrender.com/)
+
+⚠️ **Note:**  
+This app is hosted on Render's free tier.  
+The container **sleeps after several minutes of inactivity** — so when you visit the link after a long idle period, it may take **4-5 minutes to spin back up**.
+
+Please be patient while the server wakes up!
+
+
 This project leverages powerful AI APIs and frameworks, including:
 
 ✅ **Gradio** – for building an interactive web interface  
@@ -34,28 +45,6 @@ This project leverages powerful AI APIs and frameworks, including:
 ├── README.md             # Project documentation
 
 
-🖼️ System Overview
-
-Here’s how the system works end-to-end:
-
-1. User uploads a document → file saved temporarily
-
-2. Document parsed by LlamaParse depending on its file type
-
-3. Parsed text embedded using CohereEmbedding
-
-4. Embeddings stored in a VectorStoreIndex
-
-5. User asks a question → query passed to query engine
-
-6. Groq LLM generates an answer from the indexed embeddings
-
-7. Streaming response displayed in the chat interface
-
-
-
-
-
 📝 Full Workflow
 
 1) Upload a document: user uploads a .pdf, .docx, .txt, etc.
@@ -77,6 +66,25 @@ Here’s how the system works end-to-end:
 9) Clear/reset: user can clear uploaded file and start over
 
 ✅ Parsing supports PDFs, docs, text files, images, spreadsheets, presentations
+
+🖼️ System Overview
+
+
+Here’s how the system works end-to-end:
+
+1. User uploads a document → file saved temporarily
+
+2. Document parsed by LlamaParse depending on its file type
+
+3. Parsed text embedded using CohereEmbedding
+
+4. Embeddings stored in a VectorStoreIndex
+
+5. User asks a question → query passed to query engine
+
+6. Groq LLM generates an answer from the indexed embeddings
+
+7. Streaming response displayed in the chat interface
 
 
 🏗️ Installation & Setup
