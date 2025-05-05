@@ -55,7 +55,7 @@ Here’s how the system works end-to-end:
 
 🖼 System Design
 
-![Screenshot](images/system.png)
+![Screenshot](https://media.datacamp.com/cms/ad_4nxdpof_ed4ia3vxtrfvg9xrt3smuqgbxgtjlfindayutr5ojtfzicfmrs0thtgdph2xhjybh-jn9kfkk8jc-buc1h1sxiiauiugj7wpuowrlc0dldrqt5xk5iqzhsglldbastszroa.png)
 
 
 📝 Full Workflow
